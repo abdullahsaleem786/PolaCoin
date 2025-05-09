@@ -1,10 +1,7 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-
-// https://vitejs.dev/config/
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react' // or whatever plugin you're using
 export default defineConfig({
-  plugins: [react()],
-  optimizeDeps: {
-    exclude: ['lucide-react'],
-  },
-});
+  base: '/PolaCoin/', // This matches your GitHub repository name
+  plugins: [react()], // Keep your existing plugins
+  // ... keep any other existing configuration
+})
