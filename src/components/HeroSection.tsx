@@ -42,7 +42,7 @@ const HeroSection: React.FC = () => {
           transition={{ duration: 0.8 }}
         >
           <motion.img 
-            src={`${import.meta.env.BASE_URL}images/P1.jpg`}
+            src={`${import.meta.env.BASE_URL}image/p1.jpg`}
             alt="Pola Bear Logo" 
             className="max-w-full h-auto float-animation"
             style={{ maxHeight: '500px' }}
