@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center gap-2" onClick={closeMenu}>
             <img 
-              src="/image/p2.jpg" 
+              src={`${import.meta.env.BASE_URL}image/p2.jpg`} 
               alt="Pola Bear" 
               className="h-10 w-auto"
             />

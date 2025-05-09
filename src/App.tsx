@@ -1,4 +1,3 @@
-import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AnimatePresence } from 'framer-motion';
 import Home from './pages/Home';
@@ -9,7 +8,7 @@ import { AuthProvider } from './contexts/AuthContext';
 function App() {
   return (
     <AuthProvider>
-      <Router>
+      <Router basename="/PolaCoin">
         <AnimatePresence mode="wait">
           <Routes>
             <Route path="/" element={<Home />} />

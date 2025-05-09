@@ -27,7 +27,7 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4 relative z-10">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-2">
-            <img src="/image/P1.jpg" alt="" className="h-10 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}image/P1.jpg`} alt="" className="h-10 w-auto" />
             
             <span className="text-xl font-bold gradient-text">POLA BEAR</span>
           </div>

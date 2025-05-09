@@ -97,7 +97,7 @@ const AboutSection: React.FC = () => {
           
           <div className="flex-1 flex justify-center">
             <img 
-              src="image/p2.jpg" 
+              src={`${import.meta.env.BASE_URL}image/p2.jpg`} 
               alt="Pola Bear Coin" 
               className="max-w-[200px] md:max-w-[250px]"
             />
